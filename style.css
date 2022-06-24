@@ -1,0 +1,271 @@
+*
+{
+	margin: 0;
+	font-family: arial;
+	text-decoration: none;
+}
+
+
+
+header 
+{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+header div
+{
+	padding: 10px;
+}
+header a
+{
+	padding: 10px;
+	color: grey;
+}
+
+
+.banner
+{
+	background: red;
+	/*background-position: center;*/
+	/*background-size: cover;*/
+	padding: 15% 35%; /*left and right is 35% and 15% is top and bottom*/
+	text-align: center;
+
+
+	background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
+	background-size: cover;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	/*background-repeat: no-repeat;*/
+	background-position: center;
+
+}
+
+
+.banner h1
+{
+	background:black;
+	color: white;
+	padding: 10px;
+}
+
+
+
+
+
+.about
+{
+	padding: 5% 15%; /*top + bottom=5% , left+right=10%*/
+}
+.about h1
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.about p
+{
+	margin-top: 2%;
+}
+
+
+.about .about-flex
+{
+	display: flex;
+}
+.about .about-flex .about-left
+{
+	width: 50%;
+	padding: 2%;
+}
+.about .about-flex .about-left img
+{
+	padding: 2%;
+	width: 100%;
+}
+.about .about-flex .about-right
+{
+	width: 50%;
+	padding: 2%;
+}
+
+
+
+.about .skills
+{
+
+}
+.about .skills .title
+{
+
+}
+.about .skills .progress
+{
+	background: silver;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+}
+.about .skills .progress .progress----90
+{
+	background: #333;
+	width: 90%;
+}
+.about .skills .progress .progress----75
+{
+	background: #333;
+	width: 75%;
+}
+.about .skills .progress .progress----65
+{
+	background: #333;
+	width: 65%;
+}
+.about .skills .progress .r
+{
+
+}
+
+
+.stats
+{
+	background: #333;
+	color: white;
+	padding:2% 5%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+.portfolio
+{
+	background: red;
+	padding: 15% 35%; /*left and right is 35% and 15% is top and bottom*/
+	text-align: center;
+	color: white;
+
+	background-image: url("https://www.w3schools.com/w3images/parallax2.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.my-work
+{
+	padding: 5% 15%;
+	text-align: center;
+}
+.my-work .work-gallery
+{
+	display: flex;
+	flex-flow: wrap;
+}
+.my-work .work-gallery div
+{
+	width: 23%;
+	padding: 1%;
+	opacity: 1;
+}
+.my-work .work-gallery div img
+{
+	width: 100%;
+}
+.my-work .work-gallery div:hover
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+.my-work button
+{
+	padding: 10px;
+	border: 0;
+}
+.my-work button:hover
+{
+	background: grey;
+	color: white;
+}
+
+
+
+.contact
+{
+	background: red;
+	padding: 15% 35%; /*left and right is 35% and 15% is top and bottom*/
+	text-align: center;
+	color: white;
+
+	background-image: url("https://www.w3schools.com/w3images/parallax3.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+.contact-us
+{
+	padding: 5% 15%;
+}
+.contact-us .contact-inner
+{
+	display: flex;
+}
+.contact-us .contact-inner .map
+{
+
+}
+.contact-us .contact-inner .address
+{
+	margin-left: 2%;
+}
+.contact-us .contact-inner .address .line
+{
+	display: flex;
+}
+.contact-us .contact-inner .address .line .l
+{
+	width: 30px;
+}
+.contact-us .contact-inner .address .line .r
+{
+
+}
+.contact-us .contact-inner input
+{
+	padding: 10px;
+	width: 49.6%;
+}
+.contact-us .contact-inner .full
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}	
+.contact-us .contact-inner button
+{
+	background: black;
+	color: white;
+	padding: 10px;
+	border: 0;
+}
+
+
+
+footer
+{
+	padding: 5%;
+	background: black;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+footer button
+{
+	padding: 10px;
+	border: 0;
+}
